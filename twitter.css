@@ -147,13 +147,6 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
   background-color: #55acee !important;
 }
 
-/* Container should go full width */
-.global-nav .container {
-  max-width: none !important;
-  padding-left: 10px !important;
-  padding-right: 5px !important;
-}
-
 /* Bird */
 .bird-topbar-etched {
   position: absolute !important;
