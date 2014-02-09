@@ -442,7 +442,6 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 /* Tweet actions */
 .tweet-actions {
   position: static !important;
-  float: none !important;
   padding-left: 0 !important;
   margin-left: -10px !important;
   background-color: transparent !important;
@@ -457,6 +456,13 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 .tweet:hover .tweet-actions a,
 .tweet:hover .tweet-actions .btn-link {
   color: #99aab5 !important;
+}
+
+.tweet .tweet-actions a:hover, 
+.tweet .tweet-actions a:focus,
+.tweet .tweet-actions .btn-link:hover,
+.tweet .tweet-actions .btn-link:focus { 
+	color: #3886c1 !important; 
 }
 
 /* Recolor the favorited Favorite star */
