@@ -108,14 +108,6 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 */
 
 
-/*
- * Undo overzealous focus state
- */
-
-.selected-stream-item:focus {
-  box-shadow: none !important;
-}
-
 
 /*
  * Undo blocks of accent color bullshit
