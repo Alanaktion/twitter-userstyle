@@ -28,7 +28,6 @@ Beyond that, I think (and hope) Twitter can grow to no longer support user theme
 
 Want to help? Great! Submit a pull request that does one of the following:
 
-* Move timestamps away from the user name in Tweets and back to the right
 * Fix accent colors everywhere
 * Fix borders and shadows on dropdown menus
 * Fix remaining uses of the accent color
