@@ -46,7 +46,7 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 .tweet .context .pretty-link s,
 .tweet .context .pretty-link b,
 .Footer-link,
-.stream-item-activity-me .latest-tweet .tweet-row, 
+.stream-item-activity-me .latest-tweet .tweet-row,
 .stream-item-activity-me .latest-tweet .tweet-row a,
 .stream-item-activity-me .latest-tweet .tweet-row b {
   color: #999 !important;
@@ -65,24 +65,24 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 }
 
 /* Background styles */
-.dropdown-menu li > a:hover, 
-.dropdown-menu li > a:focus, 
-.dropdown-menu .dropdown-link:hover, 
-.dropdown-menu .dropdown-link:focus, 
-.dropdown-menu li:hover .dropdown-link, 
-.dropdown-menu li:focus .dropdown-link, 
-.dropdown-menu .typeahead-recent-search-item.selected, 
-.dropdown-menu .typeahead-saved-search-item.selected, 
-.dropdown-menu .selected a, 
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-menu .dropdown-link:hover,
+.dropdown-menu .dropdown-link:focus,
+.dropdown-menu li:hover .dropdown-link,
+.dropdown-menu li:focus .dropdown-link,
+.dropdown-menu .typeahead-recent-search-item.selected,
+.dropdown-menu .typeahead-saved-search-item.selected,
+.dropdown-menu .selected a,
 .dropdown-menu .dropdown-link.selected {
   background-color: #54acef !important;
   color: #fff !important;
 }
 
 /* Move style overrides for embeds */
-.u-textInheritAll, 
-.u-textInheritAll:hover, 
-.u-textInheritAll:focus, 
+.u-textInheritAll,
+.u-textInheritAll:hover,
+.u-textInheritAll:focus,
 .u-textInheritAll:active {
   color: inherit !important;
 }
@@ -198,7 +198,6 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 }
 
 /* Normalize the DM and Settings icons */
-.nav.right-actions > li > a,
 .nav.right-actions > li > button {
   /* Undo the `height: 100%;` and manually reset it to 46px so that tooltips for each link are properly aligned. */
   height: 46px !important;
@@ -211,7 +210,7 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 /* Restyle the new tweet icon to blend into the topbar */
 #global-new-tweet-button {
   margin-top: 0 !important;
-  padding: 0 !important;
+  padding: 0 12px 0 0 !important;
   color: #c4e2f9 !important;
   background-color: transparent !important;
   background-image: none !important;
@@ -227,12 +226,7 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 .global-nav .form-search .search-input {
   font-size: 13px !important;
   line-height: 18px !important; /* Vertically center the text */
-  color: #81c1f2 !important;
-  background-color: #3886c1 !important;
   opacity: 1 !important;
-}
-.global-nav .form-search .search-input:placeholder {
-  color: #81c1f2 !important;
 }
 
 /* Make body match topbar */
@@ -683,4 +677,3 @@ body.three-col .wrapper {
 #tweet-box-mini-home-profile {
   font-size: 13px;
 }
-
